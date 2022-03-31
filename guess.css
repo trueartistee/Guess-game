@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    /*position: relative;*/
+    background-color: black;
+    color: white;
+    overflow-x: hidden;
+}
+.clr{
+    clear: both;
+}
+.fontsize{
+    font-size: 2em;
+}
+#line{
+    margin-top: 220px;
+    width: 100%;
+    height: 10px;
+    background-color: white;
+    text-align: center;
+    
+}
+#mark{
+    position: relative;
+    margin: auto;
+    bottom: 15px;
+    background-color: white;
+    color: black;
+    width: 70px;
+    height: 40px;
+    font-size: 2em;
+
+}
+#guess{
+    cursor: default;
+    border: none;
+    background-color: inherit;
+    color: white;
+}
+#nn{
+    width: 88.7px;
+    height: 50px;
+    text-align: center;
+    font-size: x-large;
+}
+#garea{
+    margin-top: 2em;
+    display: flex;
+    text-align: center;
+}
+#gspace{
+    width: 60%;
+}
+
+#check{
+    font-size: 2em;
+}
+header h2{
+    text-align: left;
+    color: black;
+    top: 2em;
+    left: 2em;
+    border: 1px solid black;
+    background-color: white;
+    width: max-content;
+    height: max-content;
+    cursor: default;
+    text-align: center;
+    font-size: xx-large;
+}
+header h2:hover{
+    background-color: crimson;
+}
+header p{
+    text-align: right;
+}
+#again:hover{
+    background-color: yellow;
+}
+#guessit{
+    position: relative;
+    text-align: center;
+    top: 3em;
+    
+    font-size: 3em;
+}
+.shflex{
+    display: flex;
+}
+@media(max-width:500px){
+    #garea{
+        display: block;
+    }
+}
+/* form{
+    margin-left: 4em;
+    margin-top: 4em;
+    position: relative;
+}
+fieldset{
+    width: 400px;
+    height: 400px;
+}
+legend{
+    margin-left: 4em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: brown;
+}
+#choose{
+    visibility: hidden;
+    display: flex;
+}
+#Easy, #Medium, #Hard{
+    padding-left: 2em;
+    color: crimson;
+    cursor: pointer;
+}
+#popEasy{
+    visibility: hidden;
+}
+#popMedium{
+    visibility: hidden;
+}
+#popHard{
+    visibility: hidden;
+}
+#timerEasy{
+    position: absolute;
+    top: 6em;
+    left: 500px;
+    display: flex;
+}
+#timerMedium, #timerHard{
+    position: absolute;
+    top: 4em;
+    left: 500px;
+    display: flex;
+}
+#labelNumberEasy, #labelNumberMedium, #labelNumberHard{
+    padding-left: 1em;
+}
+#outputEasy, #outputMedium, #outputHard{
+    padding-left: 1em;
+}
+#start, #stop{
+    color: crimson;
+    cursor: pointer;
+}
+#startEasy, #startMedium, #startHard{
+    color: crimson;
+    cursor: pointer;
+}
+#stopEasy, #stopMedium, #stopHard{
+    color: crimson;
+    cursor: pointer;
+}
+#pop0, #pop1, #pop2{
+    color: palegreen;
+    font-size: xx-large;
+    margin-left: 500px;
+    visibility: hidden;
+}
+#popMedium, #popHard{
+    position: absolute;
+    top: 3em;
+} */
